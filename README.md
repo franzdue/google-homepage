@@ -1,0 +1,1 @@
+This is a clone of the Google Homepage that I'll build with HTML and CSS as part of the Odin Project's fundamentals course.
