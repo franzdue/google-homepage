@@ -18,8 +18,11 @@ body, input, button {
 
 a {
     text-decoration: none;
-    color: #222;
     cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #top, #middle {
