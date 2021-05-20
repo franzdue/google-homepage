@@ -1,11 +1,14 @@
 html {
-    margin: 0px;
-    min-height: 100%;
+    overflow: hidden;
 }
 
 body {
-    margin: 0px auto;
-    min-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
 }
 
 body, input, button {
@@ -85,8 +88,35 @@ footer {
     display: block;
     padding: 15px;
     color: rgba(0, 0, 0, 0.54);
+    white-space: nowrap;
 }
 
 .b2footer {
-    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.b2footer a {
+    display: block;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    white-space: nowrap;
+}
+
+.b2footer div {
+    position: relative;
+    display: block;
+}
+
+.b2footer button {
+    width: 100%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54);
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
