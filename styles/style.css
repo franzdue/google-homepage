@@ -74,9 +74,45 @@ a:hover {
     align-items: center;
 }
 
+#top {
+    min-height: 90px;
+    max-height: 290px;
+}
+
 .top-image {
     width: 272px;
-    height: auto;
+    height: 100%;
+    margin-top: auto;
+}
+
+.mtop {
+    margin: 20px auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+
+.mtop:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.mtop:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.mtop .searchbar {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 500px;
+}
+
+.mtop .voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 8px;
 }
 
 .mbottom {
